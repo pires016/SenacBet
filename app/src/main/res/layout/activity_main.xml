@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="0dp"
+        android:text="Bem vindo ao                     SenacBet"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/main_activity_botao_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="280dp"
+        android:text="Cadastrar apostador"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/main_activity_botao_cadastrar_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_activity_botao_cadastrar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-270dp"
+        android:layout_marginEnd="0dp"
+        android:text="Cadastrar time"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/main_activity_botao_lista_apostadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="100dp"
+        android:text="Ver lista de apostadores" />
+
+    <Button
+        android:id="@+id/main_activity_botao_lista_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="50dp"
+        android:text="Ver lista de times" />
+
+</RelativeLayout>

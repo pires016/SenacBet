@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:text="Cadastro do apostador"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/cadastrar_apostador_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="Nome completo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cadastrar_apostador_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cadastrar_apostador_nome"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cadastrar_apostador_saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cadastrar_apostador_email"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="Saldo"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/botao_finalizar_cad_apostador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="273dp"
+        android:text="Finalizar cadastro" />
+
+</RelativeLayout>
